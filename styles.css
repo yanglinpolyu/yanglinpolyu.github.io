@@ -220,3 +220,20 @@ section li{
   .navbar{ top:8px; }
   h2{ font-size:1.3rem; }
 }
+
+.logo-links{
+  display:flex;
+  gap:16px;
+  margin:12px 0;
+  flex-wrap:wrap;
+}
+.logo-links img{
+  height:60px;
+  width:auto;
+  transition:transform .2s ease, opacity .2s ease;
+  opacity:.95;
+}
+.logo-links img:hover{
+  transform:scale(1.05);
+  opacity:1;
+}
